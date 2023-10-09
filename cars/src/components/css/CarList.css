@@ -1,0 +1,29 @@
+.car-display{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.car-display-bold{
+    font-weight: 50px;
+}
+
+.car-list{
+    box-shadow: 1px 10px 20px 10px #d1caca;
+    width: 80%;
+    margin-left: 150px;
+    font-size: 30px;
+    color: rgb(119, 116, 116);
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(192, 53, 53);
+    padding: 3px;
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

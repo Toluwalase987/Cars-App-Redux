@@ -1,0 +1,51 @@
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+
+/* .cost-input{
+    margin-left: 100px;
+
+} */
+.name-input{
+    margin-right: 140px;
+}
+
+.form-div{
+    padding: 10px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 190px;
+    box-shadow: 5px 10px 8px 10px #d1caca;
+    border-radius: 5px;
+}
+.name-cost{
+    /* padding: 10px; */
+    font-size: 30px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.actual-input{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 30px;
+}
+.add-car{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-submit{
+    padding: 20px;
+    width: 150px;
+    margin-left: 20px;
+    background-color: rgb(69, 69, 139);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}

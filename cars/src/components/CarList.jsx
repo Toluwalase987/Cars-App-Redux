@@ -11,7 +11,7 @@ export default function CarList(){
     })
 
     function handleDelete(car){
-        return dispatch(deleteCar(car.id))
+        return dispatch(deleteCar(car.id)) 
     }
     
 
@@ -19,6 +19,7 @@ export default function CarList(){
         return <div className="car-display" key={car.id}>
                    <p>{car.name} - ${car.cost}</p>
                    <button onClick={()=>{handleDelete(car)}}>Delete</button>
+                   
                 </div>
     })
     return(

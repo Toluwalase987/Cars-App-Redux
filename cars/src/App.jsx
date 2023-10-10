@@ -6,7 +6,7 @@ import CarValue from "./components/CarValue"
 
 export default function App(){
   return(
-    <div>
+    <div className="baba">
       <CarForm/>
       <CarSearch/>
       <CarList/>
